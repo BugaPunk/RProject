@@ -1,0 +1,13 @@
+library(BHH2)
+library(ggplot2)
+data(Patacamaya.data)
+zapatos <- with(Patacamaya.data,
+                {
+                    boys <- rep(1:10, 2)
+                    desgaste <- c(matA, matB)
+                    material <- factor(c(rep("A",10), rep("B",10)))
+                    side <- factor(c(sideA, sideB), labels=c("L","R"))
+                    boys<-factor(boys)
+                    data.frame(boys, desgaste, material, side)
+                }
+)

@@ -1,0 +1,5 @@
+"0",""
+"0",""
+"0",""
+"0","T <- ggplot(shoes.data, aes(((matA+matB) / 2), matB-matA)) + geom_point() + ggtitle(""Promedio-Diferencia de Tukey"")"
+"0","T"

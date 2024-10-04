@@ -1,0 +1,3 @@
+"0",""
+"0","Pe <- ggplot(zapatos, aes(material, desgaste, group=boys, color=boys)) + geom_point() + geom_line(aes(group=boys))"
+"0","Pe"
