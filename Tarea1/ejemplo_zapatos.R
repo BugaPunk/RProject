@@ -43,3 +43,16 @@ mean(d_obs)
 ggplot(data.frame(), aes(D)) + geom_histogram(binwidth = .07)
 
 with(shoes.data, t.test(matB, matA,paired= TRUE))
+
+# Calcular los promedios de desgaste
+promedio_matA <- mean(shoes.data$matA)
+promedio_matB <- mean(shoes.data$matB)
+
+# Mostrar los resultados
+promedio_matA
+promedio_matB
+if (promedio_matB>promedio_matA){
+  cat("El promedio de desgaste para el material B es: ", promedio_matB, "\n")
+} else {
+  cat("El promedio de desgaste para el material A es: ", promedio_matA, "\n")
+}
